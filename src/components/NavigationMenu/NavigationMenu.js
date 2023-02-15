@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavigationMenu.css";
+import "./NavigationMenu.scss";
 
 function NavigationMenu() {
 	return (

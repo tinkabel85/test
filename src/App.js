@@ -3,13 +3,17 @@ import HelloWorld from "./components/HelloWorld";
 import Namelist from "./components/Namelist";
 import NavigationMenu from "./components/NavigationMenu/NavigationMenu";
 import UserProfile from "./components/UserProfile";
+import Star from "./components/Star";
+import Quotes from "./components/Quotes";
 
 function App() {
 	return (
-    <div>
-      <NavigationMenu />
+		<div>
+			<NavigationMenu />
 			<HelloWorld />
 			<Namelist />
+      <Star number={5} />
+      <Quotes/>
 			<UserProfile
 				name="Oksana"
 				bio="Software Developer trainee"
