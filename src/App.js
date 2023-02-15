@@ -1,11 +1,13 @@
 import "./App.css";
 import HelloWorld from "./components/HelloWorld";
 import Namelist from "./components/Namelist";
+import NavigationMenu from "./components/NavigationMenu/NavigationMenu";
 import UserProfile from "./components/UserProfile";
 
 function App() {
 	return (
-		<div>
+    <div>
+      <NavigationMenu />
 			<HelloWorld />
 			<Namelist />
 			<UserProfile
